@@ -1,0 +1,34 @@
+{
+  "id": "spettro",
+  "name": "Spettro",
+  "version": "2.4.0",
+  "description": "Terminal-first multi-agent coding assistant written in Go, with configurable orchestrator/worker agent roles.",
+  "repository": "https://github.com/cesp99/spettro",
+  "website": "https://spettro.app",
+  "authors": ["Carlo Esposito"],
+  "license": "GPL-3.0-only",
+  "distribution": {
+    "binary": {
+      "darwin-aarch64": {
+        "archive": "https://github.com/cesp99/spettro/releases/download/v2.4.0/spettro_v2.4.0_darwin_arm64.tar.gz",
+        "cmd": "./spettro",
+        "args": ["--acp"]
+      },
+      "darwin-x86_64": {
+        "archive": "https://github.com/cesp99/spettro/releases/download/v2.4.0/spettro_v2.4.0_darwin_amd64.tar.gz",
+        "cmd": "./spettro",
+        "args": ["--acp"]
+      },
+      "linux-aarch64": {
+        "archive": "https://github.com/cesp99/spettro/releases/download/v2.4.0/spettro_v2.4.0_linux_arm64.tar.gz",
+        "cmd": "./spettro",
+        "args": ["--acp"]
+      },
+      "linux-x86_64": {
+        "archive": "https://github.com/cesp99/spettro/releases/download/v2.4.0/spettro_v2.4.0_linux_amd64.tar.gz",
+        "cmd": "./spettro",
+        "args": ["--acp"]
+      }
+    }
+  }
+}
